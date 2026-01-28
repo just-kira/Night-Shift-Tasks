@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Night Shift Tasks</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2c3e50">
+<script>
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Night Shift Tasks</h1>
+     
+    <div class="grid">
+      <!-- Left Section -->
+      <div>
+        <h2>Shift Handover</h2>
+        <ul>
+          <li><input type="checkbox" /> Check Log Book</li>
+          <li><input type="checkbox" /> C/Out And C/In Today</li>
+          <li><input type="checkbox" /> Check Wake Up Calls + Check Outlet Keys</li>
+          <li><input type="checkbox" /> Check RC Arr Today + Prepare Arr Key Jacket</li>
+          <li><input type="checkbox" /> Print RC And Welcome Letter ( Information Paper Map )</li>
+          <li><input type="checkbox" /> Arm Band + AquaPark Cards From Acounting</li>
+          <li><input type="checkbox" /> Filling Paper ( Checks - F.Up Sheet - B.D - Comp - F&B Orders - Wakeup Calls - Room Change - Pending Towels )</li>
+          <li><input type="checkbox" /> Reserve Alacart Restaurant</li>
+          <li><input type="checkbox" /> Prepare Night Reports + Close CL After Night Run + Send Emails + Uptade Tourism Site Daily</li>
+          <li><input type="checkbox" /> Check Dep (Rc + Billing) Day After Tommorow</li>
+        </ul>
+        
+
+        <h2>Night Reports</h2>
+        <ul>
+          <li><input type="checkbox" /> Arr By Room ( Preview And Save)</li>
+          <li><input type="checkbox" /> Arr By Vip (✓) Notes ( Preview And Save)</li>
+          <li><input type="checkbox" /> Block Forcast Pick (3) Monthes ( Preview And Save)</li>
+          <li><input type="checkbox" /> Dep By Time ( Preview And Save)</li>
+          <li><input type="checkbox" /> Dep By Vip (✓) Vip Only (✓) Notes (Preview And Save)</li>
+          <li><input type="checkbox" /> Guest INH Complimentry ( Preview And Save)</li>
+          <li><input type="checkbox" /> Guest INH Group ( Preview And Save)</li>
+          <li><input type="checkbox" /> History And Forcast From 1 Till The End Of The Month (x) Non-Deduct 3 Months (Preview And Save)</li>
+          <li><input type="checkbox" /> Manger Flash (✓) Last Year (Preview And Save)</li>
+          <li><input type="checkbox" /> Reservastion Entered On And By (Booking Date Range (-1) - Room Class (✓)-Fam (✓) Sui (✓) Sup) Sort Order Remove Room No , Add Arr Date </li>
+          <li><input type="checkbox" /> Three Month Forcast (x) Individuals Non-De (x) Blocks Non-Deduct (Preview And Save)</li>
+          <li><input type="checkbox" /> Cxl From Mail-Reservation Manger-Daily Reports-Reservation Canclation (Preview And Save)</li>
+          <li><input type="checkbox" /> Year View From New Opera (12 Months) (Preview And Save)</li>
+          <li><input type="checkbox" /> Children In House</li>
+          <li><input type="checkbox" /> Communication Sheet</li>
+          <li><input type="checkbox" /> NationalnWith Occ By day , By Month</li>
+          <li><input type="checkbox" /> Sec Data - Guest INH By House</li>
+          <li><input type="checkbox" /> TUI Guest INH (Preview And Save)</li>
+          <li><input type="checkbox" /> Tui Arr (Preview And Save)</li>
+          <li><input type="checkbox" /> History Total Revenue From 1 Till The End Of The Month (x) Non-Deduct (✓) Total Reveneu</li>
+        </ul>
+
+        <h2>Shift Handover</h2>
+        <ul>
+          <li><input type="checkbox" /> Alaa Akel (Block Monthly Current Month-Manger Report-Year View)</li>
+          <li><input type="checkbox" /> F&B Manger (Tui Arr - TUI Guest INH ) </li>
+          <li><input type="checkbox" /> Isaac Magdy (CXL- Block Monthly 3 Monthes-History And Forcast 3 Monthes-Manger Report-Reservastion Entered On And By-Year View-Three Month Forcast)</li>
+          <li><input type="checkbox" /> Executive Chef (Arr By Room-Children In House-Year View-Dep By Time-Dep By VIP-Guest INH By Comp-Guest INH By Vip)</li>
+          <li><input type="checkbox" /> GN (Arr By Room-Arr By Vip-Guest INH By Comp-Guest INH By Vip-Manger Report-Communication Sheet-Block Mnthly Current Month-Reservastion Entered On And By-Year View-NationalnWith Occ-History Total Revenue-</li>
+          <li><input type="checkbox" /> Grouped News Delivirey (Fprward To G.R)</li>
+        </ul>
+      </div>
+
+      <!-- Right Section -->
+      <div>
+        <h2>Meeting Reports</h2>
+        <ul>
+          <li><input type="checkbox" /> Manger Report</li>
+          <li><input type="checkbox" /> Communication</li>
+          
+          
+        </ul>
+
+        <div class="Pick Up Reports">
+          <h2>Pick Up Reports</h2>
+          <ul>
+            <li><input type="checkbox" /> Print Guest In House From New Opera (2 Copies)  (</li>
+            <li><input type="checkbox" /> Print Dep Folio For Today </li>
+            <li><input type="checkbox" /> Print Open Balance From New Opera</li>
+            <li><input type="checkbox" /> Print Dep By Time</li>
+            <li><input type="checkbox" />Print Arr By Room (✓) </li>
+            <li><input type="checkbox" />Vacant Dirty </li>
+            <li><input type="checkbox" /> Vacant Clean</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
